@@ -5,7 +5,7 @@ import {
   get,
 } from "./gastosExcursion.js";
 
-const main = async () => {
+const vacaciones = async () => {
   let run = true;
 
   while (run) {
@@ -47,7 +47,7 @@ const main = async () => {
   }
 };
 
-main();
+vacaciones();
 
 async function crearNuevaExcursion() {
   const nuevoGastoExcursion = await nuevaExcursion();
